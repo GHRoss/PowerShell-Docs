@@ -29,11 +29,9 @@ This makes it much less costly to learn, adopt, implement, and maintain configur
 
 Creating configurations means that complex deployment steps are captured as a "single source of truth" in a single location. 
 This makes repeated deployments of a specific set of machines much less error-prone. 
-In turn, this makes deployments faster and more reliable. 
-This enables quick turnaround on complex deployments.
+In turn, making deployments faster and more reliable which enables a quick turnaround on complex deployments.
 
-Configurations are also shareable via the [PowerShell Gallery](https://powershellgallery.com). 
-This means common scenarios and best practices might already exist for the work you need done.
+Configurations are also shareable via the [PowerShell Gallery](https://powershellgallery.com) meaning common scenarios and best practices might already exist for the work you need done.
 
 
 ## Desired State Configuration and DevOps
@@ -51,7 +49,7 @@ which makes it easier for ops teams to identify and change environments without 
 
 DSC can be used to manage both on-premises and off-premises deployments. 
 For on-premises solutions, DSC has a [pull server](https://msdn.microsoft.com/en-us/powershell/dsc/pullserver) 
-that can be used to centralize management of machines and report on their status. 
+that can be used to centralize the management of machines and report on their status. 
 For cloud solutions, DSC is usable wherever Windows is usable. 
 There are also specific offerings from Azure built on Desired State Configuration, 
 such as [Azure Automation](https://azure.microsoft.com/en-us/documentation/services/automation/), which centralizes reporting of DSC. 
